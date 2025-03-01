@@ -12,6 +12,9 @@ Practical implementations for developer roadmaps.
 | Frontend       | In Progress| [View](topics/frontend/)       |
 | Backend        | Planning   | [View](topics/backend/)        |
 
+## 🛠️ Projects
+01. Single-Page-CV (https://roadmap.sh/projects/single-page-cv)
+
 ## 🚀 Quick Start
 ```bash
 # Clone repository
