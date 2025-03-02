@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Basic HTML Website</title>
+    <!-- SEO Meta Tags -->
+    <meta name="author" content="Arash Jafary"/>
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh"/>
+    <meta name="description" content="A simple website only using HTML for roadmap.sh frontend"/>
+    <style>
+        header {
+            display: flex;
+            flex-direction: row;
+        }
+        nav ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- author-name -->
+        <div>
+            <span>Arash Jafary</span>
+        </div>
+        <!-- navBar -->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./articles.html">Articles</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- contact me (fromSection) -->
+        <section>
+            <form action="#" method="post">
+                <!-- name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <!-- email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <!-- message -->
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required rows="2"></textarea>
+                <button type="submit">Send Your Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; all rights reserved 2024</p>
+    </footer>
+</body>
+</html>
