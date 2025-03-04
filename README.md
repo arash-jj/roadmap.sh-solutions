@@ -16,6 +16,7 @@ Practical implementations for developer roadmaps.
 01. Single-Page-CV (https://roadmap.sh/projects/single-page-cv)
 02. Basic-HTML-Website (https://roadmap.sh/projects/basic-html-website)
 03. Personal-Portfolio (https://roadmap.sh/projects/portfolio-website)
+04. Changelog-Component(https://roadmap.sh/projects/changelog-component)
 
 ## 🚀 Quick Start
 ```bash
