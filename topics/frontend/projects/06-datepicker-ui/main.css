@@ -1,0 +1,93 @@
+:root{
+    --textColor:#2b2b2b;
+}
+/* Global Style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* calender */
+.calender-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.calender-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--textColor);
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+}
+.set-date{
+    display: flex;
+    align-items: center;
+    border:  1px solid black;
+}
+input[type=text]{
+    padding: 6px;
+    outline: none;
+    border: none;
+}
+.set-date-btn button {
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-self: center;
+}
+.main-content{
+    border: 1px solid black;
+}
+.month{
+    padding: 5px;
+}
+.months-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-arrow,.right-arrow{
+    cursor: pointer;
+}
+.days-name{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5px;
+}
+.days{
+    border: 1px solid black;
+    max-width: 212px;
+    display: flex;
+    flex-wrap: wrap
+}
+.days span{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 31px;
+    background-color: transparent;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.days span:hover{
+    scale: 1.1;
+    border: 1px solid black;
+}
+.days:has(span:hover) span:not(:hover){
+    filter: blur(1px);
+    transition: all 0.4s ease-in-out;
+}
