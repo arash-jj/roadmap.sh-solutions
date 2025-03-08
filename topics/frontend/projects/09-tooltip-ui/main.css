@@ -1,0 +1,78 @@
+:root{
+    --nav-item-color:#007acc;
+    --tooltip-bg-color:#2b2b2b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-block: 10px;
+    background-color: whitesmoke;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #007acc;
+}
+/* main content */
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.nav-item{
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+.tooltip{
+    font-size: 14px;
+    padding: 5px;
+    background-color: var(--tooltip-bg-color);
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    text-wrap: nowrap;
+    top: -35px;
+    left: -25px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.4s ease-in-out;
+}
+.tooltip::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: var(--tooltip-bg-color);
+    rotate: 45deg;
+    position: absolute;
+    bottom: -1px;
+    left: 40px;
+    z-index: -1;
+}
+/* hover */
+.nav-item:hover a {
+    filter: drop-shadow(0px 0px 4px var(--nav-item-color));
+}
+.nav-item:hover .tooltip{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.4s ease-in-out;
+
+}
+ul:has(.nav-item:hover) .nav-item:not(:hover){
+    margin-top: 5px;
+    scale: 0.9;
+    transition: all 0.4s ease-in-out;
+}
