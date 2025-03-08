@@ -1,2 +1,2 @@
 ## preview 📷
-![Personal Portfolio](./04-project-screenshot.png)
+![Changelog Component](./04-project-screenshot.png)

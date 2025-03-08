@@ -1,2 +1,2 @@
 ## preview 📷
-![Personal Portfolio](./07-project-screenshot.png)
+![Accessible Form UI](./07-project-screenshot.png)

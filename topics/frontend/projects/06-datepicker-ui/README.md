@@ -1,2 +1,2 @@
 ## preview 📷
-![Personal Portfolio](./06-project-screenshot.png)
+![Datepicker UI](./06-project-screenshot.png)

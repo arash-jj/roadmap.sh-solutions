@@ -1,2 +1,2 @@
 ## preview 📷
-![Personal Portfolio](./05-project-screenshot.png)
+![Testimonial Cards](./05-project-screenshot.png)
