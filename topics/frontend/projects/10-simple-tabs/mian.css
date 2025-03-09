@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+.tabs-buttons{
+    padding: 15px;
+}
+.tabs-btn{
+    background: none;
+    border: none;
+    border-bottom: 1px solid royalblue;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.tabs-btn:hover{
+    transition: all 0.2s ease-in-out;
+    scale: 1.1;
+}
+.tab{
+    padding: 10px;
+    margin-block: 12px;
+    display: none;
+}
+.tab.active{
+    display: block;
+}
+.tab p{
+    max-width: 500px;
+}
+.image{
+    width: 500px;
+    height: 200px;
+    background-color: #2b2b2b;
+}
