@@ -22,7 +22,8 @@ Practical implementations for developer roadmaps.
 07. Accessible-Form-UI (https://roadmap.sh/projects/accessible-form-ui)
 08. Image Grid Layout (https://roadmap.sh/projects/image-grid)
 09. Tooltip UI (https://roadmap.sh/projects/tooltip-ui)
-09. Tabs (https://roadmap.sh/projects/simple-tabs)
+10. Tabs (https://roadmap.sh/projects/simple-tabs)
+11. Cookie Consent (https://roadmap.sh/projects/cookie-consent)
 
 ## 🚀 Quick Start
 ```bash
