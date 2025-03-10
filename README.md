@@ -24,6 +24,7 @@ Practical implementations for developer roadmaps.
 09. Tooltip UI (https://roadmap.sh/projects/tooltip-ui)
 10. Tabs (https://roadmap.sh/projects/simple-tabs)
 11. Cookie Consent (https://roadmap.sh/projects/cookie-consent)
+12. Restricted Textarea (https://roadmap.sh/projects/restricted-textarea)
 
 ## 🚀 Quick Start
 ```bash

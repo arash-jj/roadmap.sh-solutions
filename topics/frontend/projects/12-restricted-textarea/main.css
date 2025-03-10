@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+.container{
+    margin: 50px auto;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+    text-align: center;
+}
+.text-area-container{
+    position: relative;
+}
+textarea{
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 16px;
+    transition: 0.4s ease-in-out;
+}
+textarea.limit-reached{
+    color: red;
+    outline: red;
+    border: 1.5px solid red;
+    transition: 0.4s ease-in-out;
+}
+#digit-counter{
+    position: absolute;
+    bottom: 6px;
+    right: 9px;
+    transition: 0.4s ease-in-out;
+}
+#digit-counter.limit-reached{
+    transition: 0.4s ease-in-out;
+    color: red;
+}
