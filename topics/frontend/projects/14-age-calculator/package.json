@@ -1,0 +1,17 @@
+{
+  "name": "14-age-calculator",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "arash-jj",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "js-datepicker": "^5.18.4",
+    "luxon": "^3.5.0"
+  }
+}
