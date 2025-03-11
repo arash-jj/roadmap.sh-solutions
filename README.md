@@ -26,7 +26,10 @@ Practical implementations for developer roadmaps.
 11. Cookie Consent (https://roadmap.sh/projects/cookie-consent)
 12. Restricted Textarea (https://roadmap.sh/projects/restricted-textarea)
 13. Accordion (https://roadmap.sh/projects/accordion)
+<<<<<<< HEAD
 14. Age Calculator (https://roadmap.sh/projects/age-calculator)
+=======
+>>>>>>> 7ab0c331faf4ccb95ef116cdf64abc2b50ea0da1
 
 ## 🚀 Quick Start
 ```bash
