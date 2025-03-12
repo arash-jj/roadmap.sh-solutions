@@ -3,5 +3,5 @@
 ![Flash Cards](./src/assets/15-project-screenshot-2.png)
 
 ## Technologies Used 🛠️
-**Vite + React**
-**tailwind**
+- **Vite + React**
+- **tailwind**
