@@ -30,6 +30,7 @@ Practical implementations for developer roadmaps.
 15. Flash Cards (https://roadmap.sh/projects/flash-cards)
 16. Custom Dropdown (https://roadmap.sh/projects/custom-dropdown)
 17. Task Tracker (https://roadmap.sh/projects/task-tracker-js)
+18. GitHub Random Repository (https://roadmap.sh/projects/github-random-repo)
 ## 🚀 Quick Start
 ```bash
 # Clone repository
