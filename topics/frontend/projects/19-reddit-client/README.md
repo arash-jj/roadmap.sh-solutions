@@ -1,2 +1,2 @@
 ## preview 📷
-![Reddit Client](./19-project-screenshot.png)
+![Reddit Client](./19-project-screenshot.PNG)
