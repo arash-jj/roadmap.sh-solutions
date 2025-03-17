@@ -33,6 +33,7 @@ Practical implementations for developer roadmaps.
 18. [GitHub Random Repository](https://roadmap.sh/projects/github-random-repo)
 19. [Reddit Client](https://roadmap.sh/projects/reddit-client)
 20. [Temperature Converter](https://roadmap.sh/projects/temperature-converter)
+21. [Pomodoro Timer](https://roadmap.sh/projects/pomodoro-timer)
 ## 🚀 Quick Start
 ```bash
 # Clone repository
