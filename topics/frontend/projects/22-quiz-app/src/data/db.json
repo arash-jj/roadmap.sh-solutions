@@ -1,0 +1,148 @@
+{
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Frontend Basics",
+        "description": "HTML/CSS fundamentals",
+        "category": "Frontend",
+        "difficulty": "Easy",
+        "tags": ["web", "html", "css"],
+        "duration": 10,
+        "questions": [
+          {
+            "id": 1,
+            "questionText": "What does HTML stand for?",
+            "type": "multiple-choice",
+            "options": [
+              "Hyper Text Markup Language",
+              "Home Tool Markup Language",
+              "Hyperlinks and Text Markup Language"
+            ],
+            "correctAnswer": "Hyper Text Markup Language",
+            "points": 1
+          },
+          {
+            "id": 2,
+            "questionText": "Which HTML tag is used for creating a hyperlink?",
+            "type": "multiple-choice",
+            "options": ["<link>", "<a>", "<href>"],
+            "correctAnswer": "<a>",
+            "points": 1
+          },
+          {
+            "id": 3,
+            "questionText": "CSS stands for Computer Style Sheets",
+            "type": "true-false",
+            "options": ["True", "False"],
+            "correctAnswer": "False",
+            "points": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Sports Trivia",
+        "description": "Test your sports knowledge",
+        "category": "Sports",
+        "difficulty": "Medium",
+        "tags": ["soccer", "olympics"],
+        "duration": 15,
+        "questions": [
+          {
+            "id": 1,
+            "questionText": "Which country won the 2022 FIFA World Cup?",
+            "type": "multiple-choice",
+            "options": ["France", "Argentina", "Brazil", "Germany"],
+            "correctAnswer": "Argentina",
+            "points": 1
+          },
+          {
+            "id": 2,
+            "questionText": "In basketball, a free throw is worth 2 points",
+            "type": "true-false",
+            "options": ["True", "False"],
+            "correctAnswer": "False",
+            "points": 1
+          },
+          {
+            "id": 3,
+            "questionText": "Which city hosted the 2020 Summer Olympics?",
+            "type": "multiple-choice",
+            "options": ["Tokyo", "Paris", "Beijing", "London"],
+            "correctAnswer": "Tokyo",
+            "points": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "World History",
+        "description": "Historical events quiz",
+        "category": "History",
+        "difficulty": "Hard",
+        "tags": ["world", "events"],
+        "duration": 20,
+        "questions": [
+          {
+            "id": 1,
+            "questionText": "The Berlin Wall fell in what year?",
+            "type": "multiple-choice",
+            "options": ["1985", "1989", "1991", "1979"],
+            "correctAnswer": "1989",
+            "points": 1
+          },
+          {
+            "id": 2,
+            "questionText": "Ancient Egyptians built the Great Wall of China",
+            "type": "true-false",
+            "options": ["True", "False"],
+            "correctAnswer": "False",
+            "points": 1
+          },
+          {
+            "id": 3,
+            "questionText": "Who was the first person to walk on the moon?",
+            "type": "multiple-choice",
+            "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin"],
+            "correctAnswer": "Neil Armstrong",
+            "points": 1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "JavaScript Fundamentals",
+        "description": "Core JS concepts",
+        "category": "Frontend",
+        "difficulty": "Medium",
+        "tags": ["programming", "web"],
+        "duration": 15,
+        "questions": [
+          {
+            "id": 1,
+            "questionText": "Which symbol is used for comments in JavaScript?",
+            "type": "multiple-choice",
+            "options": ["//", "#", "--", "/*"],
+            "correctAnswer": "//",
+            "points": 1
+          },
+          {
+            "id": 2,
+            "questionText": "JavaScript can only run in browsers",
+            "type": "true-false",
+            "options": ["True", "False"],
+            "correctAnswer": "False",
+            "points": 1
+          },
+          {
+            "id": 3,
+            "questionText": "Which method adds an element to an array's end?",
+            "type": "multiple-choice",
+            "options": ["push()", "pop()", "shift()", "unshift()"],
+            "correctAnswer": "push()",
+            "points": 1
+          }
+        ]
+      }
+    ]
+}
