@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+    /* Breakpoints */
+    --breakpoint-sm: 20rem;
+    /* Custom Colors */
+    --PrimaryColor: #2196F3;
+    --lightPrimaryColor: #BBDEFB;
+    --DarkPrimaryColor: #1976D2;
+    --Text: #fff; 
+    --AccentColor: #536DFE;
+    --PrimaryText: #212121;
+    --SecondaryText: #212121;
+    --SecondaryText: #212121;
+    --DividerColor: #BDBDBD;
+}

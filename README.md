@@ -35,6 +35,7 @@ Practical implementations for developer roadmaps.
 20. [Temperature Converter](https://roadmap.sh/projects/temperature-converter)
 21. [Pomodoro Timer](https://roadmap.sh/projects/pomodoro-timer)
 22. [Quiz App](https://roadmap.sh/projects/quiz-app)
+23. [Weather Web App](https://roadmap.sh/projects/weather-app)
 ## 🚀 Quick Start
 ```bash
 # Clone repository
