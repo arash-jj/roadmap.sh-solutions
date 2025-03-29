@@ -1,10 +1,9 @@
-import { useState } from 'react'
+import Stories from './components/Stories'
 import './index.css'
 
 function App() {
-
   return (
-    <></>
+    <Stories />
   )
 }
 
