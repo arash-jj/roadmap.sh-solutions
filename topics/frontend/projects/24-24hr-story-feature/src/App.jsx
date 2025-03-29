@@ -3,7 +3,9 @@ import './index.css'
 
 function App() {
   return (
-    <Stories />
+    <div className="p-1 md:p-3 min-h-screen ">
+      <Stories />
+    </div>
   )
 }
 

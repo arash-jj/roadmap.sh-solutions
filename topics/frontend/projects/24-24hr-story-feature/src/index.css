@@ -2,4 +2,7 @@
 :root{
 
 }
-@theme{}
+@theme{
+    /* Breakpoints */
+    --breakpoint-sm: 20rem;
+}
