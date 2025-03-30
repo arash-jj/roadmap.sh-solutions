@@ -6,3 +6,9 @@
     /* Breakpoints */
     --breakpoint-sm: 20rem;
 }
+
+#problem{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}

@@ -1,20 +1,22 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { X } from 'lucide-react';
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 
-export default function GetStoryContent({ addContentState, setAddContent }) {
-    const [preview, setPreview] = React.useState(null);
+export default function GetStoryContent({ addContentState, setAddContent, onNewEntry }) {
+    const [preview, setPreview] = useState(null);
     const formik = useFormik({
         initialValues: {
             image: null,
             description: "",
+            seenStory: false
         },
         onSubmit: async (values, { resetForm, setSubmitting }) => {
             await saveToLocalstorage(values);
             resetForm();
             setPreview(null);
             setSubmitting(false);
+            onNewEntry();
             setAddContent(false);
         },
         validationSchema: yup.object({
@@ -28,7 +30,8 @@ export default function GetStoryContent({ addContentState, setAddContent }) {
                     if (!value) return false;
                     return value.size <= 2 * 1024 * 1024;
                 }),
-            description: yup.string().max(100, 'Description must be less than 100 characters')
+            description: yup.string().max(100, 'Description must be less than 100 characters'),
+            seenStory: yup.boolean()
         })
     });
     const saveToLocalstorage = async (values) => {
@@ -39,6 +42,7 @@ export default function GetStoryContent({ addContentState, setAddContent }) {
                     id: Date.now(),
                     image: reader.result,
                     description: values.description || '',
+                    seenStory: values.seenStory,
                     timestamp: new Date().toISOString()
                 };
                 localStorage.setItem(`entry_${entry.id}`, JSON.stringify(entry));
