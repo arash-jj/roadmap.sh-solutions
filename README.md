@@ -36,6 +36,7 @@ Practical implementations for developer roadmaps.
 21. [Pomodoro Timer](https://roadmap.sh/projects/pomodoro-timer)
 22. [Quiz App](https://roadmap.sh/projects/quiz-app)
 23. [Weather Web App](https://roadmap.sh/projects/weather-app)
+24. [24hr Story Feature](https://roadmap.sh/projects/stories-feature)
 ## 🚀 Quick Start
 ```bash
 # Clone repository
